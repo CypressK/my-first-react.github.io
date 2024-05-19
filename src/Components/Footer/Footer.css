@@ -1,0 +1,19 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px 0;
+    border-top: 1px solid var(--darkblue);
+    padding: 15px 0;
+    color: gray;
+    font-size: calc(0.5rem + 0.5vw);
+    
+}
+
+.footer ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
